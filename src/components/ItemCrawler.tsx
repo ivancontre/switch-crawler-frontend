@@ -67,7 +67,7 @@ const ItemCrawler: FC<ItemCrawlerProps> = ({c}) => {
     };
 
     return (
-            <Row style={{'margin': '5px', padding: '5px', backgroundColor: 'white'}} justify="space-around" align="middle">
+            <Row style={{'margin': '8px', padding: '8px', backgroundColor: 'white'}} justify="space-around" align="middle">
                 <Col span={8}>                    
                     <Title level={5}>{c.car_name}</Title>
                     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
